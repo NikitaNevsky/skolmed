@@ -2125,7 +2125,7 @@ button {
 
     &__logo {
         width: 168px;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
         transition: all 0.3s ease;
 
         &:hover {
@@ -2240,5 +2240,18 @@ button {
         color: #8CB589;
         text-align: center;
         background: rgba(140, 181, 137, 0.08);
+    }
+
+    &__special {
+        margin-bottom: 30px;
+
+        a {
+            font-size: 14px;
+            color: #8CB589;
+
+            img {
+                width: 20px;
+            }
+        }
     }
 }

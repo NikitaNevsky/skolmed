@@ -2048,7 +2048,7 @@ button:focus {
 }
 .footer__logo {
   width: 168px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -2152,4 +2152,14 @@ button:focus {
   color: #8CB589;
   text-align: center;
   background: rgba(140, 181, 137, 0.08);
+}
+.footer__special {
+  margin-bottom: 30px;
+}
+.footer__special a {
+  font-size: 14px;
+  color: #8CB589;
+}
+.footer__special a img {
+  width: 20px;
 }
