@@ -2002,6 +2002,68 @@ button:focus {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.programs__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 33px;
+}
+.programs__info--photo {
+  width: 522px;
+  height: 608px;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-right: 90px;
+}
+.programs__info--text p {
+  font-size: 16px;
+  line-height: 160%;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.programs__info--price {
+  margin-top: 5px;
+  font-size: 20px;
+  line-height: 160%;
+  color: #000000;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+.programs__info--price span {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 160%;
+  color: #8CB589;
+}
+.programs__info--buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.programs__info--buttons .button {
+  height: 60px;
+  padding: 20px 24px;
+  margin-right: 32px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+}
+.programs__info--buttons .button.button3 {
+  padding: 20px 48px;
+  background: #fafbf9;
+}
+.programs__info--buttons .button.button3:hover {
+  background: #8CB589;
+}
 
 .map {
   padding-top: 75px;

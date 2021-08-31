@@ -2072,6 +2072,69 @@ button {
         display: flex;
         justify-content: center;
     }
+
+    &__info {
+        display: flex; 
+        justify-content: space-between;
+        margin-top: 33px;
+
+        &--photo {
+            width: 522px;
+            height: 608px;
+            border-radius: 30px;
+            overflow: hidden;
+            margin-right: 90px;
+        }
+
+        &--text {
+            p {
+                font-size: 16px;
+                line-height: 160%;
+                color: #333333;
+                margin-bottom: 20px;
+            }
+        }
+
+        &--price {
+            margin-top: 5px;
+            font-size: 20px;
+            line-height: 160%;
+            color: #000000;
+            width: max-content;
+            margin-left: auto;
+            margin-bottom: 30px;
+
+            span {
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 160%;
+                color: #8CB589;
+            }
+        }
+
+        &--buttons {
+            display: flex;
+            align-items: center;
+
+            .button {
+                height: 60px;
+                padding: 20px 24px;
+                margin-right: 32px;
+                font-weight: 900;
+                font-size: 16px;
+                line-height: 20px;
+
+                &.button3 {
+                    padding: 20px 48px;
+                    background: #fafbf9;
+
+                    &:hover {
+                        background: #8CB589;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .map {
