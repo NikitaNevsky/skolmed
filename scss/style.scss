@@ -549,6 +549,19 @@ button {
         &--title {
             text-align: left;
             margin-bottom: 22px;
+
+            a {
+                font-size: 16px;
+                line-height: 20px;
+                color: #8CB589;
+                text-decoration: underline;
+                margin-left: 39px;
+                font-weight: normal;
+
+                &:hover {
+                    color: #8CB589;
+                }
+            }
         }
 
         &--text {
@@ -2291,6 +2304,98 @@ button {
 
     &__title {
         margin-bottom: 50px;
+    }
+}
+
+.prices {
+    &__info {
+        width: 100%;
+    }
+
+    &__table {
+        &--item {
+            display: flex;
+            justify-content: space-between;
+            background: rgba(140, 181, 137, 0.08);
+            padding: 20px;
+
+            &.type-2 {
+                background: #ffffff;
+            }
+        }
+
+        &--title {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 160%;
+            color: #333333;
+        }
+
+        &--desc {
+            font-size: 16px;
+            line-height: 160%;
+            color: #333333;
+            margin-top: 8px;
+        }
+
+        &--price {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 160%;
+            color: #000000;
+            text-align: right;
+        }
+    }
+}
+
+.accordion {
+    width: 100%;
+
+    &-item {
+        margin-bottom: 32px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &-button {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border: 0;
+        background: #FFFFFF;
+        padding: 30px 40px;
+        text-align: left;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 160%;
+        color: #333333;
+        position: relative;
+        border-radius: 20px 20px 0 0;
+
+        &.collapsed {
+            border-radius: 20px;
+        }
+
+        &__icon {
+            margin-right: 25px;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 18px;
+            right: 40px;
+            background: url('../images/svg/accordion-arrow.svg') no-repeat;
+        }
+    }
+
+    &-body {
+        background: #ffffff;
+        padding: 0 40px 30px 100px;
+        border-radius: 0 0 20px 20px;
     }
 }
 
